@@ -1,0 +1,13 @@
+{
+  "pages":[
+    "pages/Component/Component",
+    "pages/index/index",
+    "pages/game/game",
+    
+    "pages/icon/iocn"
+  ],
+  "window":{
+    "navigationBarBackgroundColor": "#ffb3ff",  
+    "navigationBarTitleText": "推箱子"
+  }
+}

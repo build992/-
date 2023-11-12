@@ -1,0 +1,18 @@
+/*关卡选择区域*/
+.levelBox{
+  width: 100%;
+}
+/*单个*/
+.box{
+  width:50%;
+  float: left;
+  margin: 20rpx 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/*选择*/
+image{
+  width: 300rpx;
+  height: 300rpx;
+}

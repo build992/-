@@ -1,0 +1,16 @@
+
+/*整体页面容器设计*/
+
+.container{
+  height: 100vh;
+  color: aqua;
+  font-weight: bold;  /*字体加粗*/
+  display: flex;      /*弹性布局*/
+  flex-direction: column;  /*垂直分布*/
+  align-items: center;  /*居中*/
+  justify-content: space-evenly;  /*字体间隔*/
+}
+/*顶端标题*/
+.title{
+  font-size: 20pt;
+}

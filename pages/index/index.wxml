@@ -1,0 +1,11 @@
+<view class="container">
+  <!--标题-->
+  <view class="title">关卡选择</view>
+  <!--关卡列表--> 
+  <view class="levelBox">
+      <view class="box" bindtap="chooseLevels" data-level="{{index}}" wx:for="{{levels}}" wx:key="levels{{index}}"> 
+        <image src="/image/{{item}}"></image>
+        <text style="color:crimson;">第{{1+index}}关</text>
+      </view>
+  </view>
+</view>

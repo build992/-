@@ -1,0 +1,74 @@
+/* pages/Component/Component.wxss */
+.container1 view{
+  width:100px;
+  height:100px;
+  text-align: center;
+  line-height: 100px;
+}
+.vv{
+  text-align: center;
+}
+.first{
+  background-color: aquamarine;
+}
+.second{
+  background-color: darkorchid;
+}
+.third
+{
+  background-color: darkorange;
+}
+
+.container1 {
+  display: flex;
+  justify-content: space-around;
+}
+
+
+.sw1{
+  background-color: aqua;
+height: 300rpx;
+text-align: center;
+}
+.sw2{
+  background-color: blue;
+  height: 300rpx;
+  text-align: center;
+}
+.sw3{
+  background-color: crimson;
+  height:300rpx;
+  text-align: center;
+}
+.container2{
+  border:1px solid red;
+  height:110px;
+}
+.container2 view{
+  height: 100%;
+  line-height: 150rpx;
+  text-align: center;
+}
+.container3{
+  height:150px;
+}
+.item{
+  height:100%;
+  line-height: 150px;
+  text-align: center;
+}
+
+swiper-item:nth-child(1) .item{
+  background-color: aquamarine;
+}
+swiper-item:nth-child(2) .item{
+  background-color:pink
+}
+swiper-item:nth-child(3) .item{
+  background-color: darkorange;
+}
+
+.progress{
+  margin-top: 80rpx;
+}
+
