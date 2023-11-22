@@ -31,18 +31,7 @@ var pageObject={
     console.log(e.detail.errMsg)
     console.log(e.detail.userInfo)
     console.log(e.detail.rawData)
-  }
-},
-for(var i = 0;i < types.length;++i){
-  (function (type){
-    pageObject[type] = function(e)
-    {
-      var key = type + 'Size'
-      var changeData = {}
-      changeData[key] = this.data[key] === 'default' ? 'mini' : 'default'
-      this.setData(changeData)
-    }
-  })
+  },
 }
 Page({
 

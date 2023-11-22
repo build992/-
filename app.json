@@ -1,13 +1,29 @@
 {
   "pages":[
-    "pages/Component/Component",
     "pages/index/index",
     "pages/game/game",
-    
+    "pages/Component/Component",
     "pages/icon/iocn"
   ],
   "window":{
     "navigationBarBackgroundColor": "#ffb3ff",  
     "navigationBarTitleText": "推箱子"
+  },
+  "tabBar":{
+    "color":"#000000",
+    "selectedColor":"#00ffff",
+    "backgroundColor":"#ffffff",
+    "list":[
+    {
+      "pagePath":"pages/index/index",
+      "text":"首页"
+    },
+    {
+      "pagePath":"pages/Component/Component",
+      "text":"游戏简介"
+    }
+
+    
+   ]
   }
 }

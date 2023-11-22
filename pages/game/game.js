@@ -135,7 +135,7 @@ CheckWin:function()
   {
     wx.showModal({
       title: '恭喜',
-      content: '！！游戏成功！！',
+      content: '游戏成功！！！',
       showCancel:false
     })
   }
@@ -212,7 +212,6 @@ CheckWin:function()
         {
           ctx.drawImage('/image/icons/box.png',j*w,i*w,w,w)
         }
-
       }
     }
     ctx.drawImage('/image/icons/main.png',col*w,row*w,w,w)

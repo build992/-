@@ -72,3 +72,10 @@ swiper-item:nth-child(3) .item{
   margin-top: 80rpx;
 }
 
+.button-hover{
+  background-color: red;
+}
+.other-button-hover{
+  background-color: blue;
+}
+button {margin: 10px;}
